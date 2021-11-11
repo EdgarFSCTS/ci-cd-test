@@ -54,4 +54,4 @@ jobs:
         KEY: ${{ secrets.SSHKEY }}
         script: |
           cd /home/devfsc/ivan.foodsafetycts.xyz/ci-cd-test
-          git fetch
+          git pull origin/main

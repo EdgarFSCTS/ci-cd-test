@@ -54,4 +54,4 @@ jobs:
         KEY: ${{ secrets.SSHKEY }}
         script: |
           cd /home/devfsc/ivan.foodsafetycts.xyz
-          git pull https://github.com/EdgarFSCTS/ci-cd-test.git
+          git pull origin/master

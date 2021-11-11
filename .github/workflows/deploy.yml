@@ -51,7 +51,7 @@ jobs:
         KEY: ${{ secrets.SSHKEY }}
       with:
         source: "."
-        target: "/var/www/ivan.foodsafetycts.xyz"
+        target: "/var/www/dt"
 
     - name: Executing remote command
       uses: appleboy/ssh-action@master

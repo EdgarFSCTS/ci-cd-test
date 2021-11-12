@@ -55,4 +55,4 @@ jobs:
         script: |
           cd /home/devfsc/ivan.foodsafetycts.xyz/ci-cd-test
           git pull https://github.com/EdgarFSCTS/ci-cd-test.git
-          echo '${{ github.events.repository.name }}'
+          echo ' ${{ github.events.repository.name }} '
